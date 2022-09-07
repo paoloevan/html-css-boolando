@@ -126,15 +126,51 @@ header .icons {
 main {
     line-height: 1.2rem;
 }
-.up_left {
+.card {
     width: 100%;
     background-size:cover;
     background-repeat: no-repeat;
     position: relative;
 }
 
-.up_left img {
+.card img {
     width: 100%;
+}
+
+.bl_b {
+    display: none;
+}
+
+.bottom-left:hover .bl_a{
+    display: none;
+}
+
+.bottom-left:hover .bl_b{
+    display: inline-block;
+}
+
+.uc_b {
+    display: none;
+}
+
+.up-center:hover .uc_a{
+    display: none;
+}
+
+.up-center:hover .uc_b{
+    display: inline-block;
+}
+
+.ur_b {
+    display: none;
+}
+
+.up-right:hover .ur_a{
+    display: none;
+}
+
+.up-right:hover .ur_b{
+    display: inline-block;
 }
 
 .ul_b {
@@ -149,50 +185,28 @@ main {
     display: inline-block;
 }
 
-.up_center {
-    height: 25rem;
-    background-image: url(../img/img/2.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-
-
+.bc_b {
+    display: none;
 }
 
-.up_right {
-    height: 25rem;
-    background-image: url(../img/img/3.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-
-
+.bottom-center:hover .bc_a{
+    display: none;
 }
 
-
-.bottom_left {
-    height: 25rem;
-    background-image: url(../img/img/4.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-
-
+.bottom-center:hover .bc_b{
+    display: inline-block;
 }
-.bottom_center {
-    height: 25rem;
-    background-image: url(../img/img/5.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-}
-.bottom_right {
-    height: 25rem;
-    background-image: url(../img/img/6.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 
+.br_b {
+    display: none;
+}
+
+.bottom-right:hover .br_a{
+    display: none;
+}
+
+.bottom-right:hover .br_b{
+    display: inline-block;
 }
 
 .articles {
