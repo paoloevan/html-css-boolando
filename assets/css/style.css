@@ -137,10 +137,16 @@ main {
     width: 100%;
 }
 
-.up-left:hover {
-    
-    width: 100%;
-    background-image: url(../img/img/1b.webp);
+.ul_b {
+    display: none;
+}
+
+.up-left:hover .ul_a{
+    display: none;
+}
+
+.up-left:hover .ul_b{
+    display: inline-block;
 }
 
 .up_center {
