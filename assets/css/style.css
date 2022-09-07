@@ -127,11 +127,14 @@ main {
     line-height: 1.2rem;
 }
 .up_left {
-    height: 25rem;
-    background-image: url(../img/img/1.webp);
+    width: 100%;
     background-size:cover;
     background-repeat: no-repeat;
     position: relative;
+}
+
+.up_left img {
+    width: 100%;
 }
 
 .up_center {
