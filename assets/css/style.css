@@ -15,11 +15,7 @@ img {
     height: 2rem;
 }
 
-.debug .container {
-    background-color: red;
-    height: 1.8rem;
 
-}
 .debug .col-2,
 .debug .col-8,
 .debug .col-4 {
@@ -33,6 +29,17 @@ img {
     background-color: blue;
     width: 100%;
 }
+
+.debug .site_footer {
+    height: 5rem;
+    background-color: red;
+}
+
+.debug .info,
+.debug .social {
+    background-color: aqua;
+    height: 3rem;
+}
 /* #endregion */
 
 
@@ -41,6 +48,12 @@ img {
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.row_space_between {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .container {
