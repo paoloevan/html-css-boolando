@@ -8,7 +8,7 @@ img {
     max-width: 1200px;
 }
 
-/* debug */
+/* #region debug */
 
 .debug header {
     background-color: greenyellow;
@@ -21,14 +21,22 @@ img {
 
 }
 .debug .col-2,
-.debug .col-8 {
+.debug .col-8,
+.debug .col-4 {
     background-color: blueviolet;
     height: 1.5rem;
     border: 1px solid;
 }
 
+.debug .articles {
+    height: 20rem;
+    background-color: blue;
+    width: 100%;
+}
+/* #endregion */
 
-/* utilities */
+
+/* #region utilities */
 
 .row {
     display: flex;
@@ -47,3 +55,9 @@ img {
 .col-8 {
     width: calc(100% / 12 * 8);
 }
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+/* #endregion */
