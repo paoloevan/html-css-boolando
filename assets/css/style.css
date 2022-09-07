@@ -4,3 +4,46 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 1200px;
+}
+
+/* debug */
+
+.debug header {
+    background-color: greenyellow;
+    height: 2rem;
+}
+
+.debug .container {
+    background-color: red;
+    height: 1.8rem;
+
+}
+.debug .col-2,
+.debug .col-8 {
+    background-color: blueviolet;
+    height: 1.5rem;
+    border: 1px solid;
+}
+
+
+/* utilities */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+}
