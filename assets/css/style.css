@@ -137,6 +137,12 @@ main {
     width: 100%;
 }
 
+.up-left:hover {
+    
+    width: 100%;
+    background-image: url(../img/img/1b.webp);
+}
+
 .up_center {
     height: 25rem;
     background-image: url(../img/img/2.webp);
