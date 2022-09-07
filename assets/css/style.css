@@ -85,11 +85,19 @@ img {
     width: calc(95% / 12 * 4 );
 }
 
+.col-6 {
+    width: calc(100% / 12 * 6 );
+}
+
 /* #endregion */
 
 /* header */
 header {
     background-color:var(--boo-header);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 header .col-8 {
@@ -106,6 +114,11 @@ header a {
 header i {
     color: white;
     padding: 0 2px;
+
+}
+
+header .icons {
+    text-align: right;
 }
 
 /* main */
@@ -168,7 +181,7 @@ main {
 }
 
 .articles {
-    margin-top: 2rem;
+    margin-top: 6rem;
 }
 
 .heart {
@@ -225,7 +238,20 @@ main {
 }
 
 /* footer */
+footer {
+    background-color: var(--boo-dark);
+}
 
+footer .row {
+    color: white;
+    padding-top: 2rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.social {
+    text-align: right;
+}
 
 
 
