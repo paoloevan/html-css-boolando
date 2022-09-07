@@ -1,3 +1,4 @@
+/* #region Common rules */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,15 @@
 img {
     max-width: 1200px;
 }
+
+:root {
+    --boo-sust: #008000;
+    --boo-dark: #1A1A1A;
+    --boo-sale: #FF0000;
+    --boo-header: #FF6900;
+
+}
+/* #endregion */
 
 /* #region debug */
 
@@ -51,9 +61,11 @@ img {
 }
 
 .row_space_between {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
 }
 
 .container {
@@ -74,3 +86,23 @@ img {
 }
 
 /* #endregion */
+
+
+header {
+    background-color:var(--boo-header);
+}
+
+header .col-8 {
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header i {
+    color: white;
+    padding: 0 2px;
+}
